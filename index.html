@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5b55d9">
+  <title>RuralLearn | Learn, Play & Grow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-icon">🌈</span><span>Rural<span class="brand-accent">Learn</span><small>LEARN • PLAY • GROW</small></span></a>
+    <nav id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#learn" class="nav-link">Learn</a>
+      <a href="#activities" class="nav-link">Activities</a>
+      <a href="#about" class="nav-link">About</a>
+    </nav>
+    <div class="top-actions">
+      <select id="languageSelect" aria-label="Choose language"><option value="en">English</option><option value="kn">ಕನ್ನಡ</option></select>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">✨ YOUR LITTLE WORLD OF LEARNING</span>
+        <h1>Big dreams begin<br>with <span>small steps.</span></h1>
+        <p>Explore exciting lessons, play learning games and discover something new every day. Learning is for everyone!</p>
+        <div class="hero-buttons"><a class="btn primary" href="#learn">Start learning <span>→</span></a><a class="btn soft" href="#activities">Explore activities</a></div>
+        <div class="hero-note"><span class="avatar-stack">👧🏽 👦🏻 👧🏾</span><span>Made for curious young minds</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="sun"></div><div class="float float-one">⭐</div><div class="float float-two">✏️</div>
+        <div class="book-card"><div class="book-top">LET'S LEARN!</div><div class="book-emoji">📚</div><div class="book-lines"><i></i><i></i><i></i></div></div>
+        <div class="plant">🌱</div><div class="hero-kids">🧒🏽　👧🏻</div>
+        <div class="bubble">Learning<br>is fun! 💜</div>
+      </div>
+    </section>
+
+    <section class="welcome-strip">
+      <div><span class="strip-icon">🎒</span><div><b>Welcome, young learner!</b><small>Choose a subject and let your adventure begin.</small></div></div>
+      <span class="strip-star">✦ ✦ ✦</span>
+    </section>
+
+    <section class="section" id="learn">
+      <div class="section-heading"><div><span class="eyebrow">PICK YOUR FAVOURITE</span><h2>What shall we learn today?</h2><p>Fun lessons made simple for curious minds.</p></div><span class="heading-doodle">✏️</span></div>
+      <div class="subject-grid">
+        <button class="subject-card math" data-subject="math"><span class="subject-icon">🔢</span><span class="subject-tag">NUMBERS & LOGIC</span><b>Mathematics</b><small>Count, add and solve!</small><span class="card-arrow">→</span></button>
+        <button class="subject-card science" data-subject="science"><span class="subject-icon">🌱</span><span class="subject-tag">EXPLORE THE WORLD</span><b>Science</b><small>Discover amazing things.</small><span class="card-arrow">→</span></button>
+        <button class="subject-card language" data-subject="language"><span class="subject-icon">🔤</span><span class="subject-tag">WORDS & STORIES</span><b>Languages</b><small>Read, speak and imagine.</small><span class="card-arrow">→</span></button>
+        <button class="subject-card environment" data-subject="environment"><span class="subject-icon">🌍</span><span class="subject-tag">OUR HOME</span><b>Environment</b><small>Care for our planet.</small><span class="card-arrow">→</span></button>
+      </div>
+    </section>
+
+    <section class="section activity-section" id="activities">
+      <div class="section-heading"><div><span class="eyebrow">PLAY AND PRACTISE</span><h2>Learning feels like play!</h2><p>Try a quick activity and see what you know.</p></div><span class="heading-doodle">🎯</span></div>
+      <div class="activity-layout">
+        <div class="activity-intro"><div class="activity-illustration">🧩</div><h3>Quick Quiz Challenge</h3><p>Answer a few fun questions. Every try helps you learn!</p><button class="btn primary" id="startQuiz">Play the quiz <span>→</span></button></div>
+        <div class="quiz-box" id="quizBox"><div class="quiz-top"><span class="quiz-label">🌟 MINI CHALLENGE</span><span id="questionCount">Ready?</span></div><h3 id="question">Are you ready to test your knowledge?</h3><div id="answers" class="answers"><button class="answer" id="readyBtn">Let's go! 🚀</button></div><div id="feedback" aria-live="polite"></div></div>
+      </div>
+    </section>
+
+    <section class="section lesson-section" id="lesson">
+      <div class="section-heading"><div><span class="eyebrow">A LITTLE KNOWLEDGE</span><h2>Today's learning corner</h2><p>Small facts can lead to big discoveries.</p></div></div>
+      <div class="lesson-card"><div class="lesson-picture">🌻</div><div><span class="lesson-label">SCIENCE • NATURE</span><h3>Plants are living things!</h3><p>Plants need sunlight, air, water and nutrients to grow. Their roots take in water from the soil, and their leaves help them make food using sunlight.</p><div class="fact-pills"><span>☀️ Sunlight</span><span>💧 Water</span><span>🌬️ Air</span></div></div></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-card"><div class="about-icon">💛</div><div><span class="eyebrow">OUR COMMUNITY PROJECT</span><h2>Learning should reach every child.</h2><p>RuralLearn is a student-designed learning platform concept created to support primary school learners with simple, interactive and language-friendly educational resources.</p><p class="about-small">Designed with care for rural and small-village government schools.</p></div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">🌈</span><span>Rural<span class="brand-accent">Learn</span><small>LEARN • PLAY • GROW</small></span></a><p>Curiosity today. Confidence tomorrow. ✨</p><span>© 2026 RuralLearn Community Project</span></footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
