@@ -74,7 +74,16 @@
 
   <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">🌈</span><span>Rural<span class="brand-accent">Learn</span><small>LEARN • PLAY • GROW</small></span></a><p>Curiosity today. Confidence tomorrow. ✨</p><span>© 2026 RuralLearn Community Project</span></footer>
 
+  <div class="lesson-modal" id="lessonModal" role="dialog" aria-modal="true" aria-labelledby="lmSubject" hidden>
+    <div class="lm-panel">
+      <div class="lm-head"><span class="lm-subject" id="lmSubject"></span><button class="lm-close" id="lmClose" aria-label="Close lesson">✕</button></div>
+      <div class="lm-classes" id="lmClasses" role="tablist" aria-label="Choose your class"></div>
+      <div class="lm-body" id="lmBody"></div>
+    </div>
+  </div>
+
   <div class="toast" id="toast" role="status"></div>
+  <script src="lessons.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
